@@ -1,0 +1,3 @@
+os.system('curl --data "name='+str(Encoded_Name)+'&password='+str(Encoded_Password)+'" https://starshipserver.codesalvageon.repl.co/create_starship.php')
+
+os.system('curl --data "name='+str(shipName)+'&password='+str(int.from_bytes(str(Encoded_Password).encode('utf-8'), byteorder='big'))+'&victories='+totalVictories+'" https://example.com/resource.cgi')
